@@ -1,0 +1,109 @@
+Project Overview
+
+This project performs a basic sales data analysis using Python.
+The goal is to analyze sales performance, identify best-selling products, calculate key metrics, and visualize sales trends using charts.
+
+This project demonstrates:
+
+Data loading and cleaning
+
+Sales metric calculations
+
+Basic data visualization
+
+Clear and readable Python code
+
+🎯 Objectives
+
+Calculate total sales and average sales
+
+Identify the best-selling product
+
+Handle missing values safely
+
+Create meaningful visualizations
+
+Generate insights from sales data
+
+🛠️ Technologies Used
+
+Python 3
+
+Pandas – data analysis
+
+Matplotlib – data visualization
+
+📁 Project Structure
+sales_project/
+│
+├── sales_analysis.py      # Main analysis script
+├── sales_data.csv         # Sales dataset
+├── requirements.txt       # Required Python libraries
+└── README.md              # Project documentation
+
+⚙️ Setup Instructions
+1️⃣ Install Python Libraries
+
+Run this command in terminal:
+
+pip install pandas matplotlib
+
+
+Or install using:
+
+pip install -r requirements.txt
+
+2️⃣ Run the Project
+
+Make sure sales_data.csv and sales_analysis.py are in the same folder.
+
+Run:
+
+python sales_analysis.py
+
+📊 Analysis Performed
+✅ Data Cleaning
+
+Standardized column names
+
+Filled missing values with zero
+
+Prevented runtime errors using safety checks
+
+✅ Metrics Calculated
+
+Total Sales
+
+Average Sales
+
+Best-Selling Product
+
+✅ Visualizations
+
+Histogram of sales distribution
+
+Bar chart of product-wise sales
+
+📈 Sample Output
+Total Sales: 1250000.00
+Average Sales: 510.25
+Best Selling Product: Laptop
+
+
+Graphs are displayed automatically using Matplotlib.
+
+🧠 Key Insights
+
+Certain products contribute significantly more revenue
+
+Sales distribution shows purchasing patterns
+
+Data cleaning improves analysis accuracy
+
+🧪 Testing & Validation
+
+Script checks for missing files
+
+Prevents column-related errors
+
+Works with different column name formats
